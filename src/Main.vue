@@ -3,7 +3,8 @@
 </script>
 
 <template>
-    <FrontPage msg="test" />
+    <FrontPage />
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

@@ -2,5 +2,11 @@
     const title = "阿千的雜物堆"
 </script>
 <template>
-    {{ title }}
+    <p class="title" > {{ title }} </p>
 </template>
+
+<style scoped>
+    .title {
+        color: #BD86E6;
+    }
+</style>
