@@ -76,7 +76,13 @@ button:focus-visible {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #ffffff;
+}
+
+#pageHand {
+  position: fixed;
+  width: 100%;
+  background-color: #685094;
+  top: 0px;
 }
 
 @media (prefers-color-scheme: light) {
