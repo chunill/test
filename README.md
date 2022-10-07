@@ -1,3 +1,3 @@
 # log4-N273
 
-Putting my LIFE website.
+I have my LIFE on the website.
