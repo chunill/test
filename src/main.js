@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
-import App from './App.vue'
+import Main from "./Main.vue"
+import PageHand from "./PageHand.vue"
 
-createApp(App).mount('#app')
+createApp(Main).mount('#main')
+createApp(PageHand).mount('#pageHand')
