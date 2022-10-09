@@ -7,10 +7,10 @@ const changeShow = (show) => {
 </script>
 
 <template>
-    <input type="image" src="public/menuButton.png" class="menuButton" 
+    <input type="image" src="/menuButton.png" class="menuButton" 
             @click="changeShow(1)" />
     <div id="menuBoard" v-if="menuShow" />
-    <input type="image" src="public/menuDeleteButton.png" 
+    <input type="image" src="/menuDeleteButton.png" 
             class="menuButton" v-if="menuShow" @click="changeShow(0)">
 </template>
 
