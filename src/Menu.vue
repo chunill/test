@@ -21,7 +21,7 @@ const changeShow = (show) => {
     height: 50px;
     top: 10px;
     left: 10px;
-    animation: button 1s;
+    animation: button 1s ease-in;
 }
 
 #menuBoard {
