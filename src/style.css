@@ -83,6 +83,12 @@ button:focus-visible {
   text-align: center;
 }
 
+#menu {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
