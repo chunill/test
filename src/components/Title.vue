@@ -1,17 +1,27 @@
-<script>
+<script setup>
+    defineProps(['title'])
 </script>
 
 <template>
+    <div class="title">
     <div class="titleBlock">
-        <h1 class="pageText"> 阿千的雜物堆 </h1>
+        <h1 class="pageText"> {{ title }} </h1>
     </div>
     <br>
     <div class="titleBlock">
         <p class="pageText">  </p>
     </div>
+    </div>
 </template>
 
 <style scoped>
+    .title {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0rem;
+        text-align: center;
+    }
+
     p, h1 {
         position: relative;
         top: 30%;

@@ -7,40 +7,48 @@ const changeShow = (show) => {
 </script>
 
 <template>
-    <input type="image" src="/log4-N273/Menu/menuButton.png" class="menuButton" 
-            @click="changeShow(1)" />
-    <div id="menuBoard" v-if="menuShow" />
-    <input type="image" src="/log4-N273/Menu/menuDeleteButton.png" 
-            class="menuButton" v-if="menuShow" @click="changeShow(0)">
+    <div class="menu">
+        <input type="image" src="/log4-N273/Menu/menuButton.png" class="menuButton" 
+                @click="changeShow(1)" />
+        <div id="menuBoard" v-if="menuShow" />
+        <input type="image" src="/log4-N273/Menu/menuDeleteButton.png" 
+                class="menuButton" v-if="menuShow" @click="changeShow(0)">
+    </div>
 </template>
 
 <style scoped>
-.menuButton {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    top: 10px;
-    left: 10px;
-    animation: button 1s ease-in;
-}
+    .menu {
+        position: fixed;
+        width: 200px;
+        height: 100%;
+    }
 
-#menuBoard {
-    position: fixed;
-    width: 200px;
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: aliceblue;
-    animation: menuShow 0.5s linear;
-}
+    .menuButton {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: 10px;
+        animation: button 1s ease-in;
+    }
 
-@keyframes menuShow{
-  0%   {left: -200px;}
-  100% {left: 0px;}
-}
+    #menuBoard {
+        position: fixed;
+        width: 200px;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        background-color: aliceblue;
+        animation: menuShow 0.5s linear;
+    }
 
-@keyframes button{
-    0% {opacity: 0;}
-    100%{opacity: 1;}
-}
+    @keyframes menuShow{
+    0%   {left: -200px;}
+    100% {left: 0px;}
+    }
+
+    @keyframes button{
+        0% {opacity: 0;}
+        100%{opacity: 1;}
+    }
 </style>
