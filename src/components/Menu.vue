@@ -19,6 +19,8 @@ const changeShow = (show) => {
 <style scoped>
     .menu {
         position: fixed;
+        top: 0px;
+        left: 0px;
         width: 200px;
         height: 100%;
     }
