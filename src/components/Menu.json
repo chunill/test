@@ -1,0 +1,105 @@
+{
+    "Role" : {
+        "Name" : "角色",
+        "Path" : "",
+        "Classification" : [
+            {
+                "PageName" : "角色總覽&簡介", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "煙囪", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "星盤", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "不明所以", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "黑手黨", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "政府", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "東獄", 
+                "PagePath" : ""
+            }
+        ]
+
+    },
+    "Derivative_work" : {
+        "Name" : "二創", 
+        "Path" : "", 
+        "Classification" : [
+            {
+                "PageName" : "三渣坑", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "其他", 
+                "PagePath" : ""
+            }
+        ]
+    }, 
+    "Worldview" : {
+        "Name" : "世界觀", 
+        "Path" : "", 
+        "Classification" : [
+            {
+                "PageName" : "原世", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "哨嚮", 
+                "PagePath" : ""
+            }
+        ]
+    }, 
+    "Creative_work" : {
+        "Name" : "創作", 
+        "Path" : "", 
+        "Classification" : [
+            {
+                "PageName" : "段子", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "短文", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "對戲", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "雜物", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "委託", 
+                "PagePath" : ""
+            }
+        ]
+    }, 
+    "CP" : {
+        "Name" : "CP（友誼&愛情向）", 
+        "Path" : "", 
+        "Classification" : [
+            {
+                "PageName" : "內銷", 
+                "PagePath" : ""
+            }, 
+            {
+                "PageName" : "外銷", 
+                "PagePath" : ""
+            }
+        ]
+    }
+}
