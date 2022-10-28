@@ -4,13 +4,13 @@
 
 <template>
     <div class="title">
-    <div class="titleBlock">
-        <h1 class="pageText"> {{ title }} </h1>
-    </div>
-    <br>
-    <div class="titleBlock">
-        <p class="pageText">  </p>
-    </div>
+        <div class="TextBlock">
+            <h1 class="pageText"> {{ title }} </h1>
+        </div>
+        <br>
+        <!-- <div class="TextBlock">
+            <p class="pageText">  </p>
+        </div> -->
     </div>
 </template>
 
@@ -29,7 +29,7 @@
         animation: title 2s ease-in-out;
     }
 
-    .titleBlock {
+    .TextBlock {
         width: 700px;
         height: 150px;
         padding: 0;
