@@ -41,7 +41,7 @@ const changeShow = (show) => {
         padding: 0px;
         margin: 0px;
         background-color: aliceblue;
-        animation: menuShow 0.5s linear;
+        animation: menuShow 0.3s ease-out;
     }
 
     @keyframes menuShow{
